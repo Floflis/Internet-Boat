@@ -17,7 +17,11 @@
     },
     "webkit": {},
     "window": {
+        "height": 640,
         "id": "Internet Boat",
-        "title": "Internet Boat"
+        "min_height": 640,
+        "min_width": 800,
+        "title": "Internet Boat",
+        "width": 800
     }
 }
