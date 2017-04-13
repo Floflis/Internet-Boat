@@ -1,0 +1,23 @@
+{
+    "app_name": "Internet Boat",
+    "main": "index.htm",
+    "name": "iboat",
+    "webexe_settings": {
+        "download_dir": "",
+        "force_download": false,
+        "linux-x32": false,
+        "linux-x64": false,
+        "mac-x64": false,
+        "nw_compression_level": 0,
+        "nw_version": "0.22.0-beta1",
+        "sdk_build": false,
+        "uncompressed_folder": false,
+        "windows-x32": false,
+        "windows-x64": true
+    },
+    "webkit": {},
+    "window": {
+        "id": "Internet Boat",
+        "title": "Internet Boat"
+    }
+}
