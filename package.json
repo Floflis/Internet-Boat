@@ -17,9 +17,11 @@
     },
     "webkit": {},
     "window": {
+        "exe_icon": "icon.png",
         "height": 640,
         "icon": "icon.png",
         "id": "Internet Boat",
+        "mac_icon": "icon.png",
         "min_height": 640,
         "min_width": 800,
         "title": "Internet Boat",
