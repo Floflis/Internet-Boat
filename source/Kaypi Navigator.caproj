@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Kaypi Navigator</name>
+    <description></description>
+    <version>0.6.4.7</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.plasma.kaypi</app-id>
+    <unique-id>1eafkjeicpa3e</unique-id>
+    <saved-with-version>21400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Pinco, Scirra" id="AdvTextBox" version="1.700000048">Advanced Text box</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Jesse Johnston, JP Deblonde" id="HTML_iFrame_Pode" version="1.419999957">HTML_iFrame_Pode</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="List" version="1">List</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="NodeWebkit" version="1">NW.js</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Armaldio" id="nfc" version="1">NFC</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1197</width>
+        <height>604</height>
+    </window-size>
+    <pixel-rounding>1</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Scale outer</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Nothing (not recommended)</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">NW.js</prop>
+        <prop name="Sampling">Point</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="HTML_iFrame_Pode" sid="5632204397414726">
+            <plugin id="HTML_iFrame_Pode" />
+        </object-type>
+        <object-type name="bar" sid="9680612555038454">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3074086215051653" speed="5">
+                    <frame duration="1" hotspotX="0.500418" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\topbar.png">
+                        <collision-poly>
+                            <point x="0.0192147" y="0.2875" />
+                            <point x="0.980785" y="0.2875" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AdvancedTextBox" sid="1199746131835392">
+            <plugin id="AdvTextBox" />
+        </object-type>
+        <object-type name="refresh" sid="9699187762390253">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Refresh" pingpong="0" repeatcount="1" repeatto="0" sid="8267876568853007" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\Connection.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Enter" pingpong="0" repeatcount="1" repeatto="0" sid="1822145037142163" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\enter.png" />
+                </animation>
+                <animation framecount="16" loop="1" name="Loading" pingpong="0" repeatcount="0" repeatto="0" sid="7118073356832737" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Enter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NWjs" sid="6725999686738524">
+            <plugin id="NodeWebkit" />
+        </object-type>
+        <object-type name="Mouse" sid="4938764191288456">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="home" sid="6087211428811409">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8076946059050747" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\topbar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ball" sid="1842172384769426">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3307982523102232" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\Off.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="1771287239769463" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\On.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NFC" sid="143703907636835">
+            <plugin id="nfc" />
+        </object-type>
+        <object-type name="Browser" sid="2202136337610812">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="AJAX" sid="3221636848388596">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type name="Keyboard" sid="5926112376662717">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Minimize" sid="7485306848840446">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5503855867788997" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.521739" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\minimize.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Maximize_Restore" sid="1930818213983564">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Maximize" pingpong="0" repeatcount="1" repeatto="0" sid="4912591602045238" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.521739" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\maximize.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Restore" pingpong="0" repeatcount="1" repeatto="0" sid="197323070947554" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.521739" original-source="I:\Mod\screens\notes\Apps\Internet Boat\RESTORE.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fullscreen" sid="7032537275810131">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5097894325252486" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.521739" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\fullscreen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Close" sid="4352950018934179">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5730795477462748" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.521739" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\close.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Layout" sid="3638450203408063">
+            <plugin id="NinePatch" />
+            <texture original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\frame.png" />
+        </object-type>
+        <object-type name="Touch" sid="7199670468467683">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="SiteTitle" sid="7392311094134589">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Icon" sid="7802725169593563">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3884128503355896" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\favicon.png" />
+                </animation>
+                <animation framecount="21" loop="1" name="Loading" pingpong="0" repeatcount="0" repeatto="0" sid="9834123145180575" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="List" sid="4881585180287589">
+            <plugin id="List" />
+        </object-type>
+        <object-type name="Title" sid="5506071413635771">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="AdvancedTextBox2" sid="9205181544335304">
+            <plugin id="AdvTextBox" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="NWjs" uid="5" />
+        <global-instance type="Mouse" uid="6" />
+        <global-instance type="NFC" uid="9" />
+        <global-instance type="Browser" uid="10" />
+        <global-instance type="AJAX" uid="11" />
+        <global-instance type="Keyboard" uid="12" />
+        <global-instance type="Touch" uid="18">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file-folder name="kaypi://">
+            <file name="home.html" />
+            <file name="error.html" />
+        </file-folder>
+    </files-folder>
+</c2project>

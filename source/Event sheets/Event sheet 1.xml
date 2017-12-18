@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="Actual_Adress" sid="58846684888094" static="0" type="text">home.html</variable>
+        <event-block sid="9709194390368362">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1777895532474145" type="System" />
+            </conditions>
+            <actions>
+                <action id="1" name="Set CSS Styling" sid="6063418288058321" type="HTML_iFrame_Pode">
+                    <param id="0" name="CSS Styling">&quot;border:none&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="1877033622488218" type="AdvancedTextBox">
+                    <param id="0" name="Text">&quot;home.html&quot;</param>
+                </action>
+                <action id="0" name="Set URL" sid="4133917942187069" type="HTML_iFrame_Pode">
+                    <param id="0" name="URL">&quot;home.html&quot;</param>
+                </action>
+                <action id="16" name="Set title" sid="3536244780245945" type="NWjs">
+                    <param id="0" name="Title">&quot;Kaypi Navigator&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="2922753202336943" type="Title">
+                    <param id="0" name="Text">&quot;Kaypi Navigator&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="5986032732063966">
+                    <conditions>
+                        <condition id="1" name="Is online" sid="504075083765982" type="Browser" />
+                        <condition id="-4" name="Trigger once while true" sid="1526571105364888" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5101815190271292" type="Ball">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="9380443572103295">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="438893679324729" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">refresh</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="7834714614133648">
+                    <conditions>
+                        <condition id="1" name="Is online" sid="5534175566323511" type="Browser" />
+                        <condition id="-8" name="Compare two values" sid="7285892141596504" type="System">
+                            <param id="0" name="First value">AdvancedTextBox.Text</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;home.html&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set URL" sid="1421420517808114" type="HTML_iFrame_Pode">
+                            <param id="0" name="URL">AdvancedTextBox2.Text &amp; AdvancedTextBox.Text</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="8623261426709766" type="refresh">
+                            <param id="0" name="Animation">&quot;Loading&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="9899955054068962" type="Icon">
+                            <param id="0" name="Animation">&quot;Loading&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="876041177538162">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is online" sid="3808733294970423" type="Browser" />
+                        <condition id="-8" name="Compare two values" sid="5463887579460301" type="System">
+                            <param id="0" name="First value">AdvancedTextBox.Text</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Second value">&quot;home.html&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set URL" sid="4101864051928146" type="HTML_iFrame_Pode">
+                            <param id="0" name="URL">&quot;error.html&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="8742138505098797">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9095997224056262" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+                <condition id="6" name="Has Focus" sid="6014466687759026" type="AdvancedTextBox" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set URL" sid="3276690146205761" type="HTML_iFrame_Pode">
+                    <param id="0" name="URL">AdvancedTextBox.Text</param>
+                </action>
+                <action id="4" name="Set animation" sid="1277781363083799" type="refresh">
+                    <param id="0" name="Animation">&quot;Loading&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="3373189803074992" type="Icon">
+                    <param id="0" name="Animation">&quot;Loading&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="2369967113850304">
+                    <conditions>
+                        <condition id="1" name="Is online" sid="5343794581137462" type="Browser" />
+                        <condition id="-8" name="Compare two values" sid="6172930993203744" type="System">
+                            <param id="0" name="First value">AdvancedTextBox.Text</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;home.html&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set URL" sid="5934027640009083" type="HTML_iFrame_Pode">
+                            <param id="0" name="URL">AdvancedTextBox.Text</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5240081513921069" type="refresh">
+                            <param id="0" name="Animation">&quot;Loading&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="363688181936448" type="Icon">
+                            <param id="0" name="Animation">&quot;Loading&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6247325969655729">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is online" sid="4801233867532973" type="Browser" />
+                        <condition id="-8" name="Compare two values" sid="3823553803912047" type="System">
+                            <param id="0" name="First value">AdvancedTextBox.Text</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Second value">&quot;home.html&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set URL" sid="7996790010839332" type="HTML_iFrame_Pode">
+                            <param id="0" name="URL">&quot;error.html&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="8622501467097564">
+            <conditions>
+                <condition id="5" name="On loaded" sid="9933524886196176" type="HTML_iFrame_Pode" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8289764814612909" type="System">
+                    <param id="0" name="Variable">Actual_Adress</param>
+                    <param id="1" name="Value">HTML_iFrame_Pode.CurrentURL</param>
+                </action>
+                <action id="4" name="Set animation" sid="5118269082054775" type="refresh">
+                    <param id="0" name="Animation">&quot;Refresh&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="631461793155537" type="Icon">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="8168880801773695">
+                    <conditions>
+                        <condition id="0" inverted="1" name="Compare url" sid="7077414894142809" type="HTML_iFrame_Pode">
+                            <param id="0" name="URL">&quot;error.html&quot;</param>
+                        </condition>
+                        <condition id="0" inverted="1" name="Compare url" sid="2231465996118783" type="HTML_iFrame_Pode">
+                            <param id="0" name="URL">&quot;home.html&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="16" name="Set title" sid="100072464147375" type="NWjs">
+                            <param id="0" name="Title">HTML_iFrame_Pode.CurrentURL &amp; &quot; - Kaypi Navigator&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="2794600575996754" type="Title">
+                            <param id="0" name="Text">HTML_iFrame_Pode.CurrentURL &amp; &quot; - Kaypi Navigator&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6535692764933626">
+                    <conditions>
+                        <condition id="0" name="Compare url" sid="243353402268757" type="HTML_iFrame_Pode">
+                            <param id="0" name="URL">&quot;error.html&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="16" name="Set title" sid="4828272768909653" type="NWjs">
+                            <param id="0" name="Title">&quot;Page is not available - Kaypi Navigator&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="360730620088588" type="Title">
+                            <param id="0" name="Text">&quot;Page is not available - Kaypi Navigator&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9917375499669945">
+                    <conditions>
+                        <condition id="0" name="Compare url" sid="6352482411123274" type="HTML_iFrame_Pode">
+                            <param id="0" name="URL">&quot;home.html&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="16" name="Set title" sid="8729876005923614" type="NWjs">
+                            <param id="0" name="Title">&quot;Home - Kaypi Navigator&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3011414173014218" type="Title">
+                            <param id="0" name="Text">&quot;Home - Kaypi Navigator&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9959511300121254">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="7860558947334069" type="System">
+                    <param id="0" name="First value">AdvancedTextBox.Text</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Second value">Actual_Adress</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="9536324435278681" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="4633989555179265" type="refresh">
+                    <param id="0" name="Animation">&quot;Enter&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7703308291370248">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="6352780760493003" type="System">
+                    <param id="0" name="First value">AdvancedTextBox.Text</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">Actual_Adress</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="7118542442238302" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9066878751915532" type="refresh">
+                    <param id="0" name="Animation">&quot;Refresh&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5732364837234796">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9018175780810149" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="4120136183744773" type="AdvancedTextBox2">
+                    <param id="0" name="Text">&quot;kaypi://&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="6934513264340216" type="AdvancedTextBox">
+                    <param id="0" name="Text">&quot;home.html&quot;</param>
+                </action>
+                <action id="0" name="Set URL" sid="2280475290290015" type="HTML_iFrame_Pode">
+                    <param id="0" name="URL">&quot;home.html&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="1328259859941952">
+            <conditions>
+                <condition id="0" name="Compare text" sid="8838275762110279" type="AdvancedTextBox">
+                    <param id="0" name="Text">&quot;http://&quot;</param>
+                    <param id="1" name="Case">0</param>
+                </condition>
+                <condition id="0" name="Compare text" sid="1695451446741336" type="AdvancedTextBox">
+                    <param id="0" name="Text">&quot;https://&quot;</param>
+                    <param id="1" name="Case">0</param>
+                </condition>
+                <condition id="0" name="Compare text" sid="6768150028031991" type="AdvancedTextBox">
+                    <param id="0" name="Text">&quot;file://&quot;</param>
+                    <param id="1" name="Case">0</param>
+                </condition>
+                <condition id="0" name="Compare text" sid="3198127618066946" type="AdvancedTextBox">
+                    <param id="0" name="Text">&quot;kaypi://&quot;</param>
+                    <param id="1" name="Case">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="3544438385175756" type="AdvancedTextBox2">
+                    <param id="0" name="Text">AdvancedTextBox.Text</param>
+                </action>
+                <action id="0" name="Set text" sid="4438711756883458" type="AdvancedTextBox">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="9587506379905778" title="Windowing">
+            <sub-events>
+                <event-block disabled="1" sid="2138444370888711">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="1844743215710276" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Layout</param>
+                        </condition>
+                        <condition id="-23" name="While" sid="4194084000845853" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block disabled="1" sid="8571360420214049">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="1728890934205943" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="4175895979622411" type="Layout">
+                                    <param id="0" name="Width">Mouse.X - Self.X</param>
+                                    <param id="1" name="Height">Mouse.Y - Self.Y</param>
+                                </action>
+                                <action id="14" name="Set width" sid="439742869948247" type="NWjs">
+                                    <param id="0" name="Width">Layout.Width</param>
+                                </action>
+                                <action id="15" name="Set height" sid="7429221202895561" type="NWjs">
+                                    <param id="0" name="Height">Layout.Height</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="5489417951668391" title="Window Buttons">
+            <sub-events>
+                <event-block sid="342231957023744">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="6495552788363826" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Minimize</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="17" name="Minimize" sid="6578377738082461" type="NWjs" />
+                    </actions>
+                </event-block>
+                <event-block sid="9582283895332202">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="6667377639898331" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Maximize_Restore</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1921694620946839">
+                            <conditions>
+                                <condition id="2" name="Is playing" sid="2216316359822489" type="Maximize_Restore">
+                                    <param id="0" name="Animation">&quot;Maximize&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="5429452017145976" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="9401849806597962" type="Maximize_Restore">
+                                    <param id="0" name="Animation">&quot;Restore&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="3847923468868655" type="Layout">
+                                    <param id="0" name="Width">WindowWidth</param>
+                                    <param id="1" name="Height">WindowHeight</param>
+                                </action>
+                                <action id="18" name="Maximize" sid="9502766241698481" type="NWjs" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="5368298335001495">
+                            <conditions>
+                                <condition id="2" name="Is playing" sid="9796572394359028" type="Maximize_Restore">
+                                    <param id="0" name="Animation">&quot;Restore&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="3035888811150366" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="7032866421901233" type="Maximize_Restore">
+                                    <param id="0" name="Animation">&quot;Maximize&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="78039177072445" type="Layout">
+                                    <param id="0" name="Width">WindowWidth</param>
+                                    <param id="1" name="Height">WindowHeight</param>
+                                </action>
+                                <action id="19" name="Unmaximize" sid="5527528962785202" type="NWjs" />
+                                <action id="-16" name="Wait" sid="5806839183731076" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="1329662890946908" type="Layout">
+                                    <param id="0" name="Width">WindowWidth</param>
+                                    <param id="1" name="Height">WindowHeight</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block any="1" sid="8648623907568058">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="3210210212732686" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Fullscreen</param>
+                        </condition>
+                        <condition id="0" name="On key pressed" sid="9919728131232005" type="Keyboard">
+                            <param id="0" name="Key">122 (F11)</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="2259187736522096">
+                            <conditions>
+                                <condition id="10" inverted="1" name="Is fullscreen" sid="9833333651082768" type="Browser" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="216359997320404" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="10" name="Request fullscreen" sid="8901265167295071" type="Browser">
+                                    <param id="0" name="Mode">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="2374579992150283" type="Layout">
+                                    <param id="0" name="Width">WindowWidth</param>
+                                    <param id="1" name="Height">WindowHeight</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8282538083285199">
+                            <conditions>
+                                <condition id="10" name="Is fullscreen" sid="1579949593363209" type="Browser" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="4884696925919786" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="11" name="Cancel fullscreen" sid="5249508693956505" type="Browser" />
+                                <action id="-7" name="Set size" sid="2827750441084944" type="Layout">
+                                    <param id="0" name="Width">WindowWidth</param>
+                                    <param id="1" name="Height">WindowHeight</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="4413229273764237" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="4696611125624434" type="Layout">
+                                    <param id="0" name="Width">WindowWidth</param>
+                                    <param id="1" name="Height">WindowHeight</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4145325839546863">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="413465619824265" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Close</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Close" sid="587263787312742" type="Browser" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="9219023281495378" title="Context menu">
+            <sub-events>
+                <event-block sid="8638046378058573">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="1596865033208968" type="List">
+                            <param id="0" name="Text to compare">&quot;Cut&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="8341140080954479" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="27" name="Set clipboard text" sid="6040911428778001" type="NWjs">
+                            <param id="0" name="Text">AdvancedTextBox.Text</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1826857647078592" type="AdvancedTextBox">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6331913646045646">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="4593600137813437" type="List">
+                            <param id="0" name="Text to compare">&quot;Copy&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="4636914728737225" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="27" name="Set clipboard text" sid="971351144229965" type="NWjs">
+                            <param id="0" name="Text">AdvancedTextBox.Text</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2079990820219374">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="9385495241536793" type="List">
+                            <param id="0" name="Text to compare">&quot;Paste&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="4405351279346632" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="18" name="Append text" sid="2905229826518866" type="AdvancedTextBox">
+                            <param id="0" name="Text">NWjs.ClipboardText</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1938423305364941">
+                    <conditions>
+                        <condition id="1" name="On selection changed" sid="3578308086197521" type="List" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="294833365376097" type="List">
+                            <param id="0" name="X">255</param>
+                            <param id="1" name="Y">-70</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1342975367830203">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="6091174816845701" type="Mouse">
+                            <param id="0" name="Mouse button">2</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">bar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="7043504466779808" type="List">
+                            <param id="0" name="X">Mouse.X+25</param>
+                            <param id="1" name="Y">Mouse.Y+25</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="1776321306938554" title="Connection">
+            <sub-events>
+                <event-block sid="1370495082439738">
+                    <conditions>
+                        <condition id="4" name="On went offline" sid="3383216353493721" type="Browser" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5108977430217481" type="Ball">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9713732378078585">
+                    <conditions>
+                        <condition id="3" name="On went online" sid="8618696862338705" type="Browser" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="9606314390297343" type="Ball">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="3836607060862374" title="Tooltips">
+            <sub-events>
+                <event-block sid="5635716741695403">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="4406733549548559" type="Mouse">
+                            <param id="0" name="Object">home</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="9459214801723349">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="9409758364835673" type="Mouse">
+                            <param id="0" name="Object">Ball</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="1921479428970452">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="4094658153029333" type="Mouse">
+                            <param id="0" name="Object">Close</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="1904326385312626">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="1173034976256077" type="Mouse">
+                            <param id="0" name="Object">Fullscreen</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="9035480723096412">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="7289418870375759" type="Mouse">
+                            <param id="0" name="Object">Maximize_Restore</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="1170987516424983">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="9114379803253118" type="Mouse">
+                            <param id="0" name="Object">Minimize</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
