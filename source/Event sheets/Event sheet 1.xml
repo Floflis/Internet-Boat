@@ -19,10 +19,10 @@
                     <param id="0" name="URL">&quot;home.html&quot;</param>
                 </action>
                 <action id="16" name="Set title" sid="3536244780245945" type="NWjs">
-                    <param id="0" name="Title">&quot;Kaypi Navigator&quot;</param>
+                    <param id="0" name="Title">&quot;Internet Boat&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="2922753202336943" type="Title">
-                    <param id="0" name="Text">&quot;Kaypi Navigator&quot;</param>
+                    <param id="0" name="Text">&quot;Internet Boat&quot;</param>
                 </action>
             </actions>
             <sub-events>
@@ -181,10 +181,10 @@
                     </conditions>
                     <actions>
                         <action id="16" name="Set title" sid="100072464147375" type="NWjs">
-                            <param id="0" name="Title">HTML_iFrame_Pode.CurrentURL &amp; &quot; - Kaypi Navigator&quot;</param>
+                            <param id="0" name="Title">HTML_iFrame_Pode.CurrentURL &amp; &quot; - Internet Boat&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="2794600575996754" type="Title">
-                            <param id="0" name="Text">HTML_iFrame_Pode.CurrentURL &amp; &quot; - Kaypi Navigator&quot;</param>
+                            <param id="0" name="Text">HTML_iFrame_Pode.CurrentURL &amp; &quot; - Internet Boat&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -196,10 +196,10 @@
                     </conditions>
                     <actions>
                         <action id="16" name="Set title" sid="4828272768909653" type="NWjs">
-                            <param id="0" name="Title">&quot;Page is not available - Kaypi Navigator&quot;</param>
+                            <param id="0" name="Title">&quot;Page is not available - Internet Boat&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="360730620088588" type="Title">
-                            <param id="0" name="Text">&quot;Page is not available - Kaypi Navigator&quot;</param>
+                            <param id="0" name="Text">&quot;Page is not available - Internet Boat&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -211,10 +211,10 @@
                     </conditions>
                     <actions>
                         <action id="16" name="Set title" sid="8729876005923614" type="NWjs">
-                            <param id="0" name="Title">&quot;Home - Kaypi Navigator&quot;</param>
+                            <param id="0" name="Title">&quot;Home - Internet Boat&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="3011414173014218" type="Title">
-                            <param id="0" name="Text">&quot;Home - Kaypi Navigator&quot;</param>
+                            <param id="0" name="Text">&quot;Home - Internet Boat&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -262,7 +262,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="4120136183744773" type="AdvancedTextBox2">
-                    <param id="0" name="Text">&quot;kaypi://&quot;</param>
+                    <param id="0" name="Text">&quot;boat://&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="6934513264340216" type="AdvancedTextBox">
                     <param id="0" name="Text">&quot;home.html&quot;</param>
@@ -287,7 +287,7 @@
                     <param id="1" name="Case">0</param>
                 </condition>
                 <condition id="0" name="Compare text" sid="3198127618066946" type="AdvancedTextBox">
-                    <param id="0" name="Text">&quot;kaypi://&quot;</param>
+                    <param id="0" name="Text">&quot;boat://&quot;</param>
                     <param id="1" name="Case">0</param>
                 </condition>
             </conditions>

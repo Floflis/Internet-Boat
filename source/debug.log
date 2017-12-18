@@ -1,2 +1,29 @@
 [0904/174313.300:WARNING:chrome_main_delegate.cc(569)] final extension: .zip
 [0905/030858.251:WARNING:chrome_main_delegate.cc(569)] final extension: .zip
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfff9d000, size 0xf84 fully unreadable
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfff9a000, size 0xf84 fully unreadable
+[1218/002933:ERROR:process_info.cc(608)] range at 0xfff94000, size 0xf84 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfffa9000, size 0xf84 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfff9a000, size 0xf84 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfff94000, size 0xf84 fully unreadable
+[1218/003427:ERROR:process_info.cc(608)] range at 0xfff9d000, size 0xf84 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfff9d000, size 0xf84 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfff9a000, size 0xf84 fully unreadable
+[1218/012004:ERROR:process_info.cc(608)] range at 0xfff94000, size 0xf84 fully unreadable

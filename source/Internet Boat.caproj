@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>Kaypi Navigator</name>
+    <name>Internet Boat</name>
     <description></description>
-    <version>0.6.4.7</version>
+    <version>5.0.0.0</version>
     <author></author>
     <author-email></author-email>
     <author-website>http://</author-website>
-    <app-id>com.plasma.kaypi</app-id>
+    <app-id>com.screens.browser</app-id>
     <unique-id>1eafkjeicpa3e</unique-id>
-    <saved-with-version>21400</saved-with-version>
+    <saved-with-version>24400</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Pinco, Scirra" id="AdvTextBox" version="1.700000048">Advanced Text box</plugin>
@@ -178,7 +178,7 @@
         </object-type>
         <object-type name="Layout" sid="3638450203408063">
             <plugin id="NinePatch" />
-            <texture original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\frame.png" />
+            <texture original-source="C:\Users\Daniell\Desktop\l.png" />
         </object-type>
         <object-type name="Touch" sid="7199670468467683">
             <plugin id="Touch" />
@@ -190,7 +190,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3884128503355896" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Internet Boat\favicon.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell\Desktop\Untitled.png">
+                        <collision-poly>
+                            <point x="0.148" y="0.148" />
+                            <point x="0.5" y="0" />
+                            <point x="0.852" y="0.148" />
+                            <point x="1" y="0.5" />
+                            <point x="0.852" y="0.852" />
+                            <point x="0.5" y="1" />
+                            <point x="0.148" y="0.852" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
                 <animation framecount="21" loop="1" name="Loading" pingpong="0" repeatcount="0" repeatto="0" sid="9834123145180575" speed="10">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Daniell Mesquita\Desktop\Icon.png" />
