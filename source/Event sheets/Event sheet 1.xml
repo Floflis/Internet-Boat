@@ -50,13 +50,9 @@
                 <event-block sid="7834714614133648">
                     <conditions>
                         <condition id="1" name="Is online" sid="5534175566323511" type="Browser" />
-                        <condition id="-8" name="Compare two values" sid="7285892141596504" type="System">
-                            <param id="0" name="First value">AdvancedTextBox.Text</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">&quot;home.html&quot;</param>
-                        </condition>
                     </conditions>
                     <actions>
+                        <action id="6" name="Refresh" sid="336569536038626" type="HTML_iFrame_Pode" />
                         <action id="4" name="Set animation" sid="8623261426709766" type="refresh">
                             <param id="0" name="Animation">&quot;Loading&quot;</param>
                             <param id="1" name="From">1</param>
@@ -70,11 +66,6 @@
                 <event-block sid="876041177538162">
                     <conditions>
                         <condition id="1" inverted="1" name="Is online" sid="3808733294970423" type="Browser" />
-                        <condition id="-8" name="Compare two values" sid="5463887579460301" type="System">
-                            <param id="0" name="First value">AdvancedTextBox.Text</param>
-                            <param id="1" name="Comparison">1</param>
-                            <param id="2" name="Second value">&quot;home.html&quot;</param>
-                        </condition>
                     </conditions>
                     <actions>
                         <action id="0" name="Set URL" sid="4101864051928146" type="HTML_iFrame_Pode">
@@ -260,6 +251,9 @@
             <actions>
                 <action id="0" name="Set URL" sid="2280475290290015" type="HTML_iFrame_Pode">
                     <param id="0" name="URL">&quot;home.html&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="976747383646938" type="AdvancedTextBox">
+                    <param id="0" name="Text">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
