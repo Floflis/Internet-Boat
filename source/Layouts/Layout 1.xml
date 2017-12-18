@@ -127,10 +127,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>110</x>
+                        <x>46</x>
                         <y>66</y>
                         <z>0</z>
-                        <width>528</width>
+                        <width>592</width>
                         <height>31</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -389,44 +389,6 @@
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AdvancedTextBox2" uid="0">
-                    <properties>
-                        <text>boat://</text>
-                        <placeholder></placeholder>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <read-only>No</read-only>
-                        <spell-check>No</spell-check>
-                        <type>Text</type>
-                        <auto-font-size>No</auto-font-size>
-                        <id-optional></id-optional>
-                        <customizations></customizations>
-                        <background-color>255,255,255</background-color>
-                        <transparent-background>Yes</transparent-background>
-                        <font>Arial,-16</font>
-                        <font-color>0,0,0</font-color>
-                        <borders>No</borders>
-                        <top-margin>0</top-margin>
-                        <bottom-margin>0</bottom-margin>
-                        <left-margin>0</left-margin>
-                        <right-margin>0</right-margin>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <select-all-on-focus>No</select-all-on-focus>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>50</x>
-                        <y>66</y>
-                        <z>0</z>
-                        <width>59</width>
-                        <height>31</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                     </world>
                 </instance>
             </instances>

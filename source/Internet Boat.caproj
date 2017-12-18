@@ -234,9 +234,6 @@
         <object-type name="Title" sid="5506071413635771">
             <plugin id="Text" />
         </object-type>
-        <object-type name="AdvancedTextBox2" sid="9205181544335304">
-            <plugin id="AdvTextBox" />
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>

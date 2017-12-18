@@ -12,9 +12,6 @@
                 <action id="1" name="Set CSS Styling" sid="6063418288058321" type="HTML_iFrame_Pode">
                     <param id="0" name="CSS Styling">&quot;border:none&quot;</param>
                 </action>
-                <action id="0" name="Set text" sid="1877033622488218" type="AdvancedTextBox">
-                    <param id="0" name="Text">&quot;home.html&quot;</param>
-                </action>
                 <action id="0" name="Set URL" sid="4133917942187069" type="HTML_iFrame_Pode">
                     <param id="0" name="URL">&quot;home.html&quot;</param>
                 </action>
@@ -60,9 +57,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set URL" sid="1421420517808114" type="HTML_iFrame_Pode">
-                            <param id="0" name="URL">AdvancedTextBox2.Text &amp; AdvancedTextBox.Text</param>
-                        </action>
                         <action id="4" name="Set animation" sid="8623261426709766" type="refresh">
                             <param id="0" name="Animation">&quot;Loading&quot;</param>
                             <param id="1" name="From">1</param>
@@ -186,6 +180,9 @@
                         <action id="0" name="Set text" sid="2794600575996754" type="Title">
                             <param id="0" name="Text">HTML_iFrame_Pode.CurrentURL &amp; &quot; - Internet Boat&quot;</param>
                         </action>
+                        <action id="0" name="Set text" sid="864949699531462" type="SiteTitle">
+                            <param id="0" name="Text">HTML_iFrame_Pode.CurrentURL</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="6535692764933626">
@@ -261,42 +258,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="4120136183744773" type="AdvancedTextBox2">
-                    <param id="0" name="Text">&quot;boat://&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="6934513264340216" type="AdvancedTextBox">
-                    <param id="0" name="Text">&quot;home.html&quot;</param>
-                </action>
                 <action id="0" name="Set URL" sid="2280475290290015" type="HTML_iFrame_Pode">
                     <param id="0" name="URL">&quot;home.html&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block any="1" sid="1328259859941952">
-            <conditions>
-                <condition id="0" name="Compare text" sid="8838275762110279" type="AdvancedTextBox">
-                    <param id="0" name="Text">&quot;http://&quot;</param>
-                    <param id="1" name="Case">0</param>
-                </condition>
-                <condition id="0" name="Compare text" sid="1695451446741336" type="AdvancedTextBox">
-                    <param id="0" name="Text">&quot;https://&quot;</param>
-                    <param id="1" name="Case">0</param>
-                </condition>
-                <condition id="0" name="Compare text" sid="6768150028031991" type="AdvancedTextBox">
-                    <param id="0" name="Text">&quot;file://&quot;</param>
-                    <param id="1" name="Case">0</param>
-                </condition>
-                <condition id="0" name="Compare text" sid="3198127618066946" type="AdvancedTextBox">
-                    <param id="0" name="Text">&quot;boat://&quot;</param>
-                    <param id="1" name="Case">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="3544438385175756" type="AdvancedTextBox2">
-                    <param id="0" name="Text">AdvancedTextBox.Text</param>
-                </action>
-                <action id="0" name="Set text" sid="4438711756883458" type="AdvancedTextBox">
-                    <param id="0" name="Text">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
