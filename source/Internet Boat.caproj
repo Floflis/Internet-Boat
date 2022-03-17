@@ -270,5 +270,6 @@
             <file name="home.html" />
             <file name="error.html" />
         </file-folder>
+        <file name="icon.png" />
     </files-folder>
 </c2project>
